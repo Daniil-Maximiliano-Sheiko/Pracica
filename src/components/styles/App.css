@@ -1,0 +1,40 @@
+.cf:after,
+.cf:before {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  height: 10em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+
+.button {
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .buttonWarning {
+    background-color: #f1c40f;
+  }
+  
+  .buttonError {
+    background-color: #e74c3c;
+  }
+
+  .buttonSuccess {
+    background-color: #27ae60;
+  }
+  
